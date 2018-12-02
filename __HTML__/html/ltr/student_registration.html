@@ -1,0 +1,237 @@
+                        <div id="main-wrapper" data-navbarbg="skin6" data-theme="light" data-layout="vertical" data-sidebartype="full" data-boxed-layout="full">
+                            <!--Header-->
+                            <header class="topbar" data-navbarbg="skin6">
+                                <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                                    <div class="navbar-header" data-logobg="skin6">
+                                        <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)">
+                                            <i class="ti-menu ti-close"></i>
+                                        </a>
+                                        <div class="navbar-brand">
+                                            <a href="dashboard.html" class="logo">
+                                                <b class="logo-icon logo-text">
+                                                    <h3 class="dark-logo" style="color: green">St Jago ISMS</h3>
+                                                </b>
+                                            </a>
+                                        </div>
+                                        <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                            <i class="ti-more"></i>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </header>
+        <!--Sidebar-->
+        <aside class="left-sidebar" data-sidebarbg="skin5">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="javascript:App.Navigate('dashboard')" aria-expanded="false">
+                                <i class="mdi mdi-av-timer"></i>
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
+                        </li>
+                         <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="javascript:App.Navigate('student_registration')">
+                                <i class="mdi mdi-arrange-bring-forward"></i>
+                                <span class="hide-menu">Student Registration</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="javascript:App.Navigate('view_grades')">
+                                <i class="mdi mdi-file"></i>
+                                <span class="hide-menu">View Grade</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!--End of side bar-->
+        <div class="wrapper">
+            <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-5 align-self-center">
+                        <h4 class="page-title">Student Details</h4>
+                    </div>
+                    <div class="col-7 align-self-center">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        <a href="dashboard.html">Home</a>
+                                    </li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Forms-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <!--Enroll Student-->
+                        <div class="card card-body">
+                            <h4 class="card-title">Enroll Student</h4>
+                            <h5 class="card-subtitle"> Add student to school system</h5>
+                            <form class="form-horizontal m-t-30">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control" value="George deo..." name="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="example-email">Email <span class="help"> e.g. "example@gmail.com"</span></label>
+                                    <input type="email" id="example-email" name="" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="address">Address <span class="help"> e.g. "Parish, Town, Street"</span></label>
+                                    <input type="text" name="" class="form-control" placeholder="Parish, Town, Street">
+                                </div>
+                                <div class="form-group">
+                                    <label>Class</label>
+                                    <select class="custom-select col-12" id="inlineFormCustomSelect" name="">
+                                        <option selected>Choose...</option>
+                                        <option value="1">A</option>
+                                        <option value="2">B</option>
+                                        <option value="3">C</option>
+                                        <option value="4">D</option>
+                                        <option value="5">E</option>
+                                        <option value="1">Science</option>
+                                        <option value="2">Engineering</option>
+                                        <option value="3">Business</option>
+                                        <option value="4">Economics</option>
+                                        <option value="5">Clothing</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Grade</label>
+                                    <select class="custom-select col-12" id="inlineFormCustomSelect" name="">
+                                        <option selected>Choose...</option>
+                                        <option value="1">7</option>
+                                        <option value="2">8</option>
+                                        <option value="3">9</option>
+                                        <option value="4">10</option>
+                                        <option value="4">11</option>
+                                        <option value="5">12</option>
+                                        <option value="5">13</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control" value="password" name="">
+                                </div>
+                                <div class="form-group">
+                                    <label>Re-Enter Password</label>
+                                    <input type="password" class="form-control" name="">
+                                </div>
+                                <div class="form-group">
+                                    <label>Text area</label>
+                                    <textarea class="form-control" rows="5"></textarea>
+                                </div> 
+                                <div class="form-group b">
+                                    <button class="btn btn-success">Enroll</button>
+                                </div>                         
+                            </form>
+                        </div>
+                        <!--End of Enroll Students-->
+                        <!--Cxc Registration-->
+                        <div class="card card-body">
+                            <h4 class="card-title">CXC Registrartion</h4>
+                            <h5 class="card-subtitle"> Submit student for cxc exams </h5>
+                            <form class="form-horizontal m-t-30">
+                                <div class="form-group">
+                                    <label>Student Name</label>
+                                    <input type="text" class="form-control" value="George deo..." name="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="address">Address <span class="help"> e.g. "Parish, Town, Street"</span></label>
+                                    <input type="text" class="form-control" placeholder="Parish, Town, Street" name="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="example-email">Email <span class="help"> e.g. "example@gmail.com"</span></label>
+                                    <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                        <label>Subject Level</label>
+                                        <select class="custom-select col-12" id="inlineFormCustomSelect">
+                                            <option selected>Choose Level</option>
+                                            <option value="1">Cxc</option>
+                                            <option value="2">Cape</option>
+                                        </select>
+                                </div>
+                                <div class="form-group row p-t-20">
+                                    <div class="col-12">
+                                        <label>Select CXC subjects</label>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1" name="">
+                                            <label class="custom-control-label" for="customCheck1">Mathematics</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck2" name="">
+                                            <label class="custom-control-label" for="customCheck2">English</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck3" name="">
+                                            <label class="custom-control-label" for="customCheck3">Physics</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck3" name="">
+                                            <label class="custom-control-label" for="customCheck4">Information Technology</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck1" name="">
+                                                <label class="custom-control-label" for="customCheck5">Geography</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck2" name="">
+                                                <label class="custom-control-label" for="customCheck6">Biology</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck3" name="">
+                                                <label class="custom-control-label" for="customCheck7">Agriculture</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox">
+                                                 <input type="checkbox" class="custom-control-input" id="customCheck3" name="">
+                                                 <label class="custom-control-label" for="customCheck8">Technical Drawing</label>
+                                            </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck1" name="">
+                                                <label class="custom-control-label" for="customCheck9">Economics</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck2" name="">
+                                                <label class="custom-control-label" for="customCheck10">Accounts</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck3" name="">
+                                                <label class="custom-control-label" for="customCheck11">Principle Of Business</label>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck3" name="">
+                                                    <label class="custom-control-label" for="customCheck12">Social Studies</label>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="form-group b">
+                                    <button class="btn btn-success">Submit Subjects</button>
+                                </div> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+               <!--End of Cxc Registion-->
+            </div>
+            <!--End of forms-->
+        </div>
+    </div>
